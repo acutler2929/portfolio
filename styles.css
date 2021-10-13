@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: red;
+  margin-top: 15%;
+}
+
+#landingImages {
+  border: 3px solid black;
+  max-height: 100%;
+  max-width: 30%;
+  padding: 15px;
+  transform: translate(50%);
+}
+
+#landingText {
+  align-self: center;
+  border: 3px solid black;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.projects {
+  background-color: green;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.contact {
+  background-color: blue;
+  margin-bottom: 20%;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

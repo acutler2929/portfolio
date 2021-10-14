@@ -1,35 +1,40 @@
 body {
-  text-align: center;
+  background-color: #d3d3d3;
+  font-size: 22px;
   margin-left: 5%;
   margin-right: 5%;
+  text-align: center;
 }
 
 .landing {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
   background-color: red;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
   margin-top: 15%;
+}
+
+.landing_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #landingImages {
   border: 3px solid black;
-  max-height: 100%;
-  max-width: 30%;
+  width: auto;
+  height: 125px;
+  object-fit: cover;
   padding: 15px;
-  transform: translate(50%);
 }
 
 #landingText {
   align-self: center;
   border: 3px solid black;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 .projects {
+  border: 3px solid black;
   background-color: green;
   margin-top: 25%;
   margin-bottom: 25%;
@@ -37,6 +42,7 @@ body {
 
 .contact {
   background-color: blue;
+  border: 3px solid black;
   margin-bottom: 20%;
 }
 

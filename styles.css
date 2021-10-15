@@ -22,8 +22,8 @@ body {
 
 #landingImages {
   border: 3px solid black;
-  width: auto;
   height: 125px;
+  width: auto;
   object-fit: cover;
   padding: 15px;
 }
@@ -41,14 +41,38 @@ body {
 }
 
 .contact {
-  background-color: blue;
+  align-items: center;
+  background-color: pink;
   border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 20%;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials_email {
+  display: block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  height: 50px;
+  width: auto;
+}
+
+.socials_github {
+  display: block;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  height: 50px;
+  width: auto;
+}
+
 footer {
+  font-size: 15px;
+  position: relative;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }

@@ -9,9 +9,10 @@ body {
 .landing {
   background-color: red;
   border: 3px solid black;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .landing_row {
@@ -22,8 +23,9 @@ body {
 
 #landingImages {
   border: 3px solid black;
-  height: 125px;
-  width: auto;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
   padding: 15px;
 }
@@ -33,8 +35,29 @@ body {
   border: 3px solid black;
 }
 
+.about {
+  border: 3px solid black;
+  border-radius: 50px;
+  background-color: cyan;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.toolbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#techIcons {
+  height: 100px;
+  width: 100px;
+  padding: 15px;
+}
+
 .projects {
   border: 3px solid black;
+  border-radius: 50px;
   background-color: green;
   margin-top: 25%;
   margin-bottom: 25%;
@@ -44,6 +67,7 @@ body {
   align-items: center;
   background-color: pink;
   border: 3px solid black;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;

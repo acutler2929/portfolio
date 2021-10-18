@@ -11,3 +11,24 @@
     https://pixabay.com/vectors/cup-coffee-cup-steaming-hot-drink-312127/
 
 'logo-github' and 'mail-outline' by ionicons @ https://ionic.io/ionicons
+
+'Html Logo' by Jagathish Saravanan @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/html-2752158-2284975.png
+
+'Css Icon' by Icon Mafia @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/css3-11-1175239.png
+
+'Javascript Icon' by Jagathish Saravanan @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/javascript-2752148-2284965.png
+
+'NodeJS Icon' by Icon Mafia @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/nodejs-1-226034.png
+
+'Mysql Icon' by Icon 54 @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/mysql-3521596-2945040.png
+
+'Git Icon' by Icon Mafia @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/git-225996.png
+
+'Python Icon' by Icon Mafia @ iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/python-2-226051.png

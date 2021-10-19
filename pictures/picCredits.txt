@@ -10,7 +10,7 @@
 'coffee symbol' by Clker-Free-Vector-Images @ pixabay.com
     https://pixabay.com/vectors/cup-coffee-cup-steaming-hot-drink-312127/
 
-'logo-github' and 'mail-outline' by ionicons @ https://ionic.io/ionicons
+'logo-github', 'facebook_icon', and 'mail-outline' by ionicons @ https://ionic.io/ionicons
 
 'Html Logo' by Jagathish Saravanan @ iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/html-2752158-2284975.png

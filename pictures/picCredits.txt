@@ -1,14 +1,17 @@
-'game controller' by OpenClipart-Vectors @ pixabay.com
-    https://pixabay.com/vectors/controller-pad-video-game-1294077/
+'game_controller' by Luisho Martínez @ Iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/gamepad-4128444-3430467.png
 
-'bike symbol' by OpenClipart-Vectors @ pixabay.com
-    https://pixabay.com/vectors/bike-bicycle-pictogram-symbol-160920/
+'bike_icon' by Vector Stall @ Iconscout.com
+    https://cdn.iconscout.com/icon/free/png-256/bicycle-2598720-2224366.png
 
-'reading symbol' by Clker-Free-Vector-Images @ pixabay.com
-    https://pixabay.com/vectors/person-reading-book-pictogram-310799/
+'bike_icon_front' by Iconscout Store @ Iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/bicycle-1468834-1242928.png
 
-'coffee symbol' by Clker-Free-Vector-Images @ pixabay.com
-    https://pixabay.com/vectors/cup-coffee-cup-steaming-hot-drink-312127/
+'book_icon' by Kiran Shastry @ Iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/book-1457023-1228941.png
+
+'coffee_icon' by Vincent Le Moign @ Iconscout.com
+    https://cdn.iconscout.com/icon/free/png-128/coffee-842-448157.png
 
 'logo-github', 'facebook_icon', and 'mail-outline' by ionicons @ https://ionic.io/ionicons
 

@@ -1,10 +1,10 @@
 body {
   animation-name: backgroundColorPalette;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   font-size: 22px;
-  margin-left: 5%;
+  margin-left: 20%;
   margin-right: 5%;
   text-align: center;
 }
@@ -18,13 +18,41 @@ body {
   }
 }
 
+.sidenav {
+  box-shadow: 0 0 10px 10px cyan;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: #818181;
+  display: block;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.sidenav a:hover {
+  color: cyan;
+}
+
 .landing {
-  background-color: red;
-  border: 3px solid black;
+  background-color: silver;
   border-radius: 50px;
+  box-shadow: 0 0 10px 10px cyan;
   display: flex;
   justify-content: center;
   margin-top: 10%;
+}
+
+#landing {
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .landing_row {
@@ -34,8 +62,6 @@ body {
 }
 
 #landingImages {
-  border: 3px solid black;
-  border-radius: 100%;
   height: 150px;
   width: 150px;
   object-fit: cover;
@@ -44,15 +70,19 @@ body {
 
 #landingText {
   align-self: center;
-  border: 3px solid black;
 }
 
 .about {
-  border: 3px solid black;
   border-radius: 50px;
-  background-color: cyan;
+  background-color: silver;
+  box-shadow: 0 0 10px 10px cyan;
   margin-top: 25%;
   margin-bottom: 25%;
+}
+
+#about {
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .toolbox {
@@ -68,11 +98,16 @@ body {
 }
 
 .projects {
-  border: 3px solid black;
   border-radius: 50px;
-  background-color: green;
+  background-color: silver;
+  box-shadow: 0 0 10px 10px cyan;
   margin-top: 25%;
   margin-bottom: 25%;
+}
+
+#projects {
+  padding-top: 10%;
+  margin-top: 10%;
 }
 
 .projects_wrapper {
@@ -149,9 +184,9 @@ body {
 
 .contact {
   align-items: center;
-  background-color: pink;
-  border: 3px solid black;
+  background-color: silver;
   border-radius: 50px;
+  box-shadow: 0 0 10px 10px cyan;
   display: flex;
   flex-direction: column;
   justify-content: center;

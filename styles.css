@@ -252,16 +252,34 @@ footer {
     }
   }
 
+  #landingImages {
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    /* Default:
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    padding: 15px;
+    */
+  }
+
   #techIcons {
     /* shrink icons somehow */
-    height: 100px;
-    width: 100px;
-    padding: 15px;
+    height: 12px;
+    width: 12px;
+    padding: 2px;
     /* default:
     height: 100px;
     width: 100px;
     padding: 15px;
     */
+  }
+
+  .socials {
+    justify-content: center;
+    height: 10px;
+    width: 10px;
   }
 }
 
@@ -278,6 +296,9 @@ footer {
   }
 
   #landingImages {
+    height: 35px;
+    width: 35px;
+    padding: 4px;
     /* Default:
     height: 150px;
     width: 150px;
@@ -288,14 +309,20 @@ footer {
 
   #techIcons {
     /* shrink icons somehow */
-    height: 25px;
-    width: 25px;
-    padding: 5px;
+    height: 20px;
+    width: 20px;
+    padding: 3px;
     /* default:
     height: 100px;
     width: 100px;
     padding: 15px;
     */
+  }
+
+  .socials {
+    justify-content: center;
+    height: 20px;
+    width: 20px;
   }
 }
 
@@ -311,6 +338,9 @@ footer {
     }
   }
   #landingImages {
+    height: 70px;
+    width: 70px;
+    padding: 8px;
     /* Default:
     height: 150px;
     width: 150px;
@@ -321,14 +351,20 @@ footer {
 
   #techIcons {
     /* shrink icons somehow */
-    height: 50px;
-    width: 50px;
-    padding: 7px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
     /* default:
     height: 100px;
     width: 100px;
     padding: 15px;
     */
+  }
+
+  .socials {
+    justify-content: center;
+    height: 40px;
+    width: 40px;
   }
 }
 
@@ -345,6 +381,9 @@ footer {
   }
 
   #landingImages {
+    height: 110px;
+    width: 110px;
+    padding: 10px;
     /* Default:
     height: 150px;
     width: 150px;
@@ -363,5 +402,11 @@ footer {
     width: 100px;
     padding: 15px;
     */
+  }
+
+  .socials {
+    justify-content: center;
+    height: 50px;
+    width: 50px;
   }
 }

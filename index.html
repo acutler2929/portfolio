@@ -1,116 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <title>Alice Cutler Portfolio</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
-  <style></style>
-  <body>
-    <div class="sidenav">
-      <a href="#landing">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <section id="landing">
-      <div class="landing">
-        <div class="landing_row">
-          <img src="pictures/bicycle_icon.svg" id="landingImages" />
-          <img src="pictures/book_icon.svg" id="landingImages" />
-        </div>
-        <div class="landing_row" id="landingText">
-          <h1>Hi!, I'm Alice Cutler.</h1>
-          <p>I'm a (mostly) Front-End Web Developer</p>
-          <p>And this is my portfolio (so far).</p>
-          <p>This is the landing section.</p>
-        </div>
-        <div class="landing_row">
-          <img src="pictures/coffee_icon.svg" id="landingImages" />
-          <img src="pictures/gamepad_icon.svg" id="landingImages" />
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="projects">
-        <h1>Projects</h1>
-        <p>Here is where my projects will go.</p>
-        <p2>And code for each...</p2>
-        <div class="projects_wrapper">
-          <div id="project_clickable_one">
-            <p id="project_image">Project One Placeholder</p>
-          </div>
-          <div id="project_clickable_two">
-            <p id="project_image">Project Two Placeholder</p>
-          </div>
-          <div id="project_clickable_three">
-            <p id="project_image">Project Three Placeholder</p>
-          </div>
-          <div id="project_clickable_four">
-            <p id="project_image">Project Four Placeholder</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="project_modal">
-      <div class="project_modal_content">
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
-      </div>
-    </div>
-
-    <section id="about">
-      <div class="about">
-        <div class="description">
-          <h1>About Me</h1>
-          <p>This will be the 'About Me' section.</p>
-        </div>
-        <h1>My Toolbox</h1>
-        <div class="toolbox">
-          <img src="pictures/Tech Icons/Html Icon.svg" id="techIcons" />
-          <img src="pictures/Tech Icons/Css Icon.svg" id="techIcons" />
-          <img src="pictures/Tech Icons/Javascript Icon.svg" id="techIcons" />
-          <img src="pictures/Tech Icons/Nodejs Icon.svg" id="techIcons" />
-          <img src="pictures/Tech Icons/Mysql Icon.svg" id="techIcons" />
-          <img src="pictures/Tech Icons/Git Icon.svg" id="techIcons" />
-        </div>
-      </div>
-    </section>
-
-    <div class="contact" id="contact">
-      <h1>Get In Touch</h1>
-      <p>Here is where my socials will go.</p>
-      <div class="socials">
-        <a href="mailto:acutler0451@gmail.com">
-          <ion-icon name="mail-outline">
-            <img src="pictures/mail-outline.svg" class="socials_email" />
-          </ion-icon>
-        </a>
-        <a href="https://github.com/acutler1987">
-          <ion-icon name="logo-github">
-            <img
-              src="pictures/Tech Icons/logo-github.svg"
-              class="socials_github"
-            />
-          </ion-icon>
-        </a>
-        <a href="https://www.facebook.com/alice.cutler.526">
-          <ion-icon name="logo-facebook">
-            <img
-              src="pictures/Tech Icons/facebook_icon.svg"
-              class="socials_facebook"
-            />
-          </ion-icon>
-        </a>
-      </div>
-    </div>
-    <footer>
-      <p>
-        Last updated
-        <script>
-          document.write(new Date().toLocaleDateString());
-        </script>
-      </p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+	<meta charset="UTF-8" />
+	<title>Alice Cutler Portfolio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="stylesheet" href="styles.css" />
+	<style></style>
+	<body>
+		<div class="sidenav">
+			<a href="#landing">Home</a>
+			<a href="#projects">Projects</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</div>
+		<div id="landing">
+			<div class="landing-row">
+				<img src="pictures/bicycle_icon.svg" id="landingImages" />
+				<img src="pictures/book_icon.svg" id="landingImages" />
+			</div>
+			<div class="landing-row" id="landingText">
+				<h1>Hi, I'm Alice</h1>
+				<p>I build web applications.</p>
+				<p>And this is my portfolio (so far).</p>
+			</div>
+			<div class="landing-row">
+				<img src="pictures/coffee_icon.svg" id="landingImages" />
+				<img src="pictures/gamepad_icon.svg" id="landingImages" />
+			</div>
+		</div>
+		<div id="projects">
+			<h1>Projects</h1>
+			<p>Here is where my projects will go.</p>
+			<p2>And code for each...</p2>
+			<div id="projects-wrapper">
+				<div class="project-clickable">
+					<p class="project-image">Project One Placeholder</p>
+				</div>
+				<div class="project-clickable">
+					<p class="project-image">Project Two Placeholder</p>
+				</div>
+				<div class="project-clickable">
+					<p class="project-image">Project Three Placeholder</p>
+				</div>
+				<div class="project-clickable">
+					<p class="project-image">Project Four Placeholder</p>
+				</div>
+			</div>
+		</div>
+		<div class="project-modal">
+			<div class="project-modal-content">
+				<span class="close">&times;</span>
+				<p>Some text in the Modal..</p>
+			</div>
+		</div>
+		<div id="about">
+			<div id="description">
+				<h1>About Me</h1>
+				<p>This will be the 'About Me' section.</p>
+			</div>
+			<h1>My Toolbox</h1>
+			<div id="toolbox">
+				<img
+					src="pictures/Tech Icons/Html Icon.svg"
+					class="tech-icons"
+				/>
+				<img
+					src="pictures/Tech Icons/Css Icon.svg"
+					class="tech-icons"
+				/>
+				<img
+					src="pictures/Tech Icons/Javascript Icon.svg"
+					class="tech-icons"
+				/>
+				<img
+					src="pictures/Tech Icons/Nodejs Icon.svg"
+					class="tech-icons"
+				/>
+				<img
+					src="pictures/Tech Icons/Mysql Icon.svg"
+					class="tech-icons"
+				/>
+				<img
+					src="pictures/Tech Icons/Git Icon.svg"
+					class="tech-icons"
+				/>
+			</div>
+		</div>
+		<div id="contact">
+			<h1>Get In Touch</h1>
+			<p>Here is where my socials will go.</p>
+			<div id="socials-wrapper">
+				<a href="mailto:acutler0451@gmail.com">
+					<ion-icon name="mail-outline">
+						<img
+							src="pictures/mail-outline.svg"
+							id="socials-email"
+						/>
+					</ion-icon>
+				</a>
+				<a href="https://github.com/acutler1987">
+					<ion-icon name="logo-github">
+						<img
+							src="pictures/Tech Icons/logo-github.svg"
+							id="socials-github"
+						/>
+					</ion-icon>
+				</a>
+				<a href="https://www.facebook.com/alice.cutler.526">
+					<ion-icon name="logo-facebook">
+						<img
+							src="pictures/Tech Icons/facebook_icon.svg"
+							id="socials-facebook"
+						/>
+					</ion-icon>
+				</a>
+			</div>
+		</div>
+		<footer>
+			<p>
+				Last updated
+				<script>
+					document.write(new Date().toLocaleDateString());
+				</script>
+			</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
 </html>

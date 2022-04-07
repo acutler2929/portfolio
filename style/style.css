@@ -1,0 +1,33 @@
+body {
+  -webkit-animation-name: backgroundColorPalette;
+          animation-name: backgroundColorPalette;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+@-webkit-keyframes backgroundColorPalette {
+  0% {
+    background: #444;
+  }
+  100% {
+    background: #999;
+  }
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #444;
+  }
+  100% {
+    background: #999;
+  }
+}
+/*# sourceMappingURL=style.css.map */

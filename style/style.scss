@@ -1,0 +1,25 @@
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-size: 22px;
+	margin-left: 20%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #444;
+	}
+	100% {
+		background: #999;
+	}
+}
+
+$panel-color: ;
+
+$panel-highlight: cyan;
+
+$link-color: ;

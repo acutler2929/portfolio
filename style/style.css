@@ -1,471 +1,459 @@
 /*********** Implementing Responsiveness ************/
 /********* Smaller Phones **********/
 @media only screen and (max-width: 160px) {
-  @-webkit-keyframes backgroundColorPalette {
-    0% {
-      background: pink;
-    }
-    100% {
-      background: skyblue;
-    }
-  }
-  @keyframes backgroundColorPalette {
-    0% {
-      background: pink;
-    }
-    100% {
-      background: skyblue;
-    }
-  }
-  #landingImages {
-    height: 0px;
-    width: 0px;
-    padding: 0px;
-    /* Default:
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    padding: 15px;
-    */
-  }
-  #techIcons {
-    /* shrink icons somehow */
-    height: 12px;
-    width: 12px;
-    padding: 2px;
-    /* default:
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    */
-  }
-  #socials-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 10px;
-    width: 10px;
-  }
+	@-webkit-keyframes backgroundColorPalette {
+		0% {
+			background: pink;
+		}
+		100% {
+			background: skyblue;
+		}
+	}
+	@keyframes backgroundColorPalette {
+		0% {
+			background: pink;
+		}
+		100% {
+			background: skyblue;
+		}
+	}
+	#landingImages {
+		padding: 0px;
+	}
+	#techIcons {
+		padding: 2px;
+	}
+	#socials-wrapper {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		height: 10px;
+		width: 10px;
+	}
 }
 
-/*********** Medium Phones **********/
+/*********** Larger Phones **********/
 @media only screen and (min-width: 160px) and (max-width: 320px) {
-  @-webkit-keyframes backgroundColorPalette {
-    0% {
-      background: red;
-    }
-    100% {
-      background: gold;
-    }
-  }
-  @keyframes backgroundColorPalette {
-    0% {
-      background: red;
-    }
-    100% {
-      background: gold;
-    }
-  }
-  #landingImages {
-    height: 35px;
-    width: 35px;
-    padding: 4px;
-    /* Default:
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    padding: 15px;
-    */
-  }
-  #techIcons {
-    /* shrink icons somehow */
-    height: 20px;
-    width: 20px;
-    padding: 3px;
-    /* default:
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    */
-  }
-  #socials-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 20px;
-    width: 20px;
-  }
+	@-webkit-keyframes backgroundColorPalette {
+		0% {
+			background: red;
+		}
+		100% {
+			background: gold;
+		}
+	}
+	@keyframes backgroundColorPalette {
+		0% {
+			background: red;
+		}
+		100% {
+			background: gold;
+		}
+	}
+	body {
+		margin: 0% 0% 15% 0%;
+	}
+	#navbar {
+		height: 15%;
+		width: 100%;
+	}
+	#landingImages {
+		padding: 4px;
+	}
+	#techIcons {
+		padding: 3px;
+	}
+	#socials-wrapper {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		height: 20px;
+		width: 20px;
+	}
 }
 
 /******** Smaller Tablets *****/
 @media only screen and (min-width: 320px) and (max-width: 640px) {
-  @-webkit-keyframes backgroundColorPalette {
-    0% {
-      background: blue;
-    }
-    100% {
-      background: purple;
-    }
-  }
-  @keyframes backgroundColorPalette {
-    0% {
-      background: blue;
-    }
-    100% {
-      background: purple;
-    }
-  }
-  #landingImages {
-    height: 70px;
-    width: 70px;
-    padding: 8px;
-    /* Default:
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    padding: 15px;
-    */
-  }
-  #techIcons {
-    /* shrink icons somehow */
-    height: 40px;
-    width: 40px;
-    padding: 5px;
-    /* default:
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    */
-  }
-  #socials-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 40px;
-    width: 40px;
-  }
+	@-webkit-keyframes backgroundColorPalette {
+		0% {
+			background: blue;
+		}
+		100% {
+			background: purple;
+		}
+	}
+	@keyframes backgroundColorPalette {
+		0% {
+			background: blue;
+		}
+		100% {
+			background: purple;
+		}
+	}
+	#landingImages {
+		padding: 8px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+	#techIcons {
+		padding: 5px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+	#socials-wrapper {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		height: 40px;
+		width: 40px;
+	}
 }
 
 /***************** Larger Tablets *******************/
 @media only screen and (min-width: 640px) and (max-width: 900px) {
-  @-webkit-keyframes backgroundColorPalette {
-    0% {
-      background: green;
-    }
-    100% {
-      background: sandybrown;
-    }
-  }
-  @keyframes backgroundColorPalette {
-    0% {
-      background: green;
-    }
-    100% {
-      background: sandybrown;
-    }
-  }
-  #landingImages {
-    height: 110px;
-    width: 110px;
-    padding: 10px;
-    /* Default:
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    padding: 15px;
-    */
-  }
-  #techIcons {
-    /* shrink icons somehow */
-    height: 75px;
-    width: 75px;
-    padding: 10px;
-    /* default:
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    */
-  }
-  #socials-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 50px;
-    width: 50px;
-  }
+	@-webkit-keyframes backgroundColorPalette {
+		0% {
+			background: green;
+		}
+		100% {
+			background: sandybrown;
+		}
+	}
+	@keyframes backgroundColorPalette {
+		0% {
+			background: green;
+		}
+		100% {
+			background: sandybrown;
+		}
+	}
+	#landingImages {
+		padding: 10px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+	#techIcons {
+		padding: 10px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+	#socials-wrapper {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		height: 50px;
+		width: 50px;
+	}
 }
 
 /****************** Making The Body Look Pretty ********************/
 body {
-  -webkit-animation-name: backgroundColorPalette;
-          animation-name: backgroundColorPalette;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  font-size: 22px;
-  margin: 0% 5% 0% 20%;
-  text-align: center;
+	-webkit-animation-name: backgroundColorPalette;
+	animation-name: backgroundColorPalette;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	font-size: 22px;
+	margin: 0;
+	height: 100%;
+	text-align: center;
 }
 
 @-webkit-keyframes backgroundColorPalette {
-  0% {
-    background: #444;
-  }
-  100% {
-    background: #999;
-  }
+	0% {
+		background: #444;
+	}
+	100% {
+		background: #999;
+	}
 }
 
 @keyframes backgroundColorPalette {
-  0% {
-    background: #444;
-  }
-  100% {
-    background: #999;
-  }
+	0% {
+		background: #444;
+	}
+	100% {
+		background: #999;
+	}
 }
 
 /***************** Navigation Bar ********************/
 #navbar {
-  -webkit-box-shadow: 0 0 10px 10px cyan;
-          box-shadow: 0 0 10px 10px cyan;
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  overflow-x: hidden;
+	-webkit-box-shadow: 0 0 10px 10px cyan;
+	box-shadow: 0 0 10px 10px cyan;
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	overflow-x: hidden;
 }
 
 #navbar a {
-  color: #818181;
-  display: block;
-  margin-top: 50%;
-  margin-bottom: 50%;
+	color: #818181;
+	display: block;
+	margin-top: 50%;
+	margin-bottom: 50%;
 }
 
 #navbar a:hover {
-  color: cyan;
+	color: cyan;
 }
 
 /**************** Section that wraps non-nav content ************************/
+#content-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	max-height: -webkit-fit-content;
+	max-height: -moz-fit-content;
+	max-height: fit-content;
+	width: 85%;
+	top: 0;
+	right: 0;
+	margin: 0;
+	position: absolute;
+}
+
 /**************** Landing Section ***************/
 #landing {
-  border-radius: 50px;
-  background-color: silver;
-  -webkit-box-shadow: 0 0 10px 10px cyan;
-          box-shadow: 0 0 10px 10px cyan;
-  margin: 15% 0% 15% 0%;
-  scroll-margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	border-radius: 50px;
+	background-color: silver;
+	-webkit-box-shadow: 0 0 10px 10px cyan;
+	box-shadow: 0 0 10px 10px cyan;
+	height: 100%;
+	width: 75%;
+	margin: 10% 0% 10% 0%;
+	scroll-margin-top: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 .landing-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+	width: 33%;
 }
 
 .landingImages {
-  height: 150px;
-  width: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 15px;
+	height: 40%;
+	width: 50%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	padding: 15px;
 }
 
 #landingText {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
 }
 
 /********** Projects Section *****************/
 #projects {
-  border-radius: 50px;
-  background-color: silver;
-  -webkit-box-shadow: 0 0 10px 10px cyan;
-          box-shadow: 0 0 10px 10px cyan;
-  margin: 15% 0% 15% 0%;
-  scroll-margin-top: 100px;
+	border-radius: 50px;
+	background-color: silver;
+	-webkit-box-shadow: 0 0 10px 10px cyan;
+	box-shadow: 0 0 10px 10px cyan;
+	height: 100%;
+	width: 75%;
+	margin: 10% 0% 10% 0%;
+	scroll-margin-top: 100px;
 }
 
 #projects-wrapper {
-  border: 3px solid black;
-  border-radius: 50px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  grid-auto-rows: minmax(100px, auto);
+	border: 3px solid black;
+	border-radius: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
 }
 
 .project-clickable {
-  border: 3px solid black;
-  border-radius: 50px;
-  background-color: gold;
+	border: 3px solid black;
+	border-radius: 50px;
+	background-color: gold;
+	height: 40%;
+	width: 40%;
 }
 
 .project-image {
-  border: 3px solid black;
-  border-radius: 50px;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
+	border: 3px solid black;
+	border-radius: 50px;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .project-image:hover {
-  background-color: darkorchid;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+	background-color: darkorchid;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 /*************** Project Modals ****************/
 .project-modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: black;
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
 }
 
 .project-modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  /* Could be more or less, depending on screen size */
+	background-color: #fefefe;
+	margin: 15% auto;
+	/* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	/* Could be more or less, depending on screen size */
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 /********** About Section **************/
 #about {
-  border-radius: 50px;
-  background-color: silver;
-  -webkit-box-shadow: 0 0 10px 10px cyan;
-          box-shadow: 0 0 10px 10px cyan;
-  margin: 15% 0% 15% 0%;
-  scroll-margin-top: 100px;
+	border-radius: 50px;
+	background-color: silver;
+	-webkit-box-shadow: 0 0 10px 10px cyan;
+	box-shadow: 0 0 10px 10px cyan;
+	height: 100%;
+	width: 75%;
+	margin: 10% 0% 10% 0%;
+	scroll-margin-top: 100px;
 }
 
 #toolbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .tech-icons {
-  height: 100px;
-  width: 100px;
-  padding: 15px;
+	height: 10%;
+	width: 10%;
+	padding: 15px;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 /********** Contact Section **********/
 #contact {
-  border-radius: 50px;
-  background-color: silver;
-  -webkit-box-shadow: 0 0 10px 10px cyan;
-          box-shadow: 0 0 10px 10px cyan;
-  margin: 15% 0% 15% 0%;
-  scroll-margin-top: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	border-radius: 50px;
+	background-color: silver;
+	-webkit-box-shadow: 0 0 10px 10px cyan;
+	box-shadow: 0 0 10px 10px cyan;
+	height: 100%;
+	width: 75%;
+	margin: 10% 0% 10% 0%;
+	scroll-margin-top: 100px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
-#socials-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+#contact-form {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
 }
 
-#socials-email {
-  display: block;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  height: 50px;
-  width: auto;
+#socials-icons-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	width: 80%;
 }
 
-#socials-github {
-  display: block;
-  margin-bottom: 1rem;
-  height: 50px;
-  width: auto;
-}
-
-#socials-facebook {
-  display: block;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  height: 50px;
-  width: auto;
+.social-icons {
+	height: 60%;
+	width: 60%;
 }
 
 footer {
-  font-size: 15px;
-  position: relative;
-  text-align: center;
+	font-size: 15px;
+	position: relative;
+	text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,14 +1,15 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alice Cutler",
-  "license": "ISC",
-  "dependencies": {
-    "sass": "^1.50.0"
-  }
+	"name": "portfolio",
+	"homepage": "https://alicecutler.dev/",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alice Cutler",
+	"license": "ISC",
+	"dependencies": {
+		"sass": "^1.50.0"
+	}
 }

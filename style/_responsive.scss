@@ -6,6 +6,7 @@ h1 {
 
 h2 {
 	font-size: 5vw;
+	margin: 1vh 0vw 1vh 0vw;
 }
 
 h3 {
@@ -19,28 +20,36 @@ p {
 /********* Smaller Phones **********/
 
 @media only screen and (max-width: 320px) {
-	@keyframes backgroundColorPalette {
-		0% {
-			background: pink;
-		}
-		100% {
-			background: skyblue;
-		}
+	// @keyframes backgroundColorPalette {
+	// 	0% {
+	// 		background: pink;
+	// 	}
+	// 	100% {
+	// 		background: skyblue;
+	// 	}
+	// }
+
+	body {
+		display: flex;
+		flex-direction: column;
 	}
 
 	#navbar {
-		background-color: white;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 10vh;
+		width: 100vw;
+
+		a {
+			font-size: 4vw;
+		}
 	}
 
 	#content-wrapper {
 		bottom: 0;
-		position: absolute;
+		margin-top: 15vh;
 		height: 85vh;
-		width: 100vw;
-	}
-
-	#navbar {
-		height: 15vh;
 		width: 100vw;
 	}
 
@@ -62,24 +71,35 @@ p {
 /*********** Larger Phones **********/
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
-	@keyframes backgroundColorPalette {
-		0% {
-			background: red;
-		}
-		100% {
-			background: gold;
+	// @keyframes backgroundColorPalette {
+	// 	0% {
+	// 		background: red;
+	// 	}
+	// 	100% {
+	// 		background: gold;
+	// 	}
+	// }
+
+	body {
+		position: relative;
+	}
+
+	#navbar {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 10vh;
+		width: 100vw;
+
+		a {
+			font-size: 4vw;
 		}
 	}
 
 	#content-wrapper {
 		bottom: 0;
-		position: absolute;
+		margin-top: 15vh;
 		height: 85vh;
-		width: 100vw;
-	}
-
-	#navbar {
-		height: 15vh;
 		width: 100vw;
 	}
 
@@ -101,14 +121,14 @@ p {
 /******** Tablets *******/
 
 @media only screen and (min-width: 640px) and (max-width: 900px) {
-	@keyframes backgroundColorPalette {
-		0% {
-			background: blue;
-		}
-		100% {
-			background: purple;
-		}
-	}
+	// @keyframes backgroundColorPalette {
+	// 	0% {
+	// 		background: blue;
+	// 	}
+	// 	100% {
+	// 		background: purple;
+	// 	}
+	// }
 	#landingImages {
 		padding: 8px;
 		object-fit: cover;

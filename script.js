@@ -5,10 +5,10 @@ const displayModal = function () {
 	const projectModal = document.getElementsByClassName('project-modal');
 
 	// Get the button that opens the modal
-	const btn1 = document.getElementById('project-clickable-one');
-	const btn2 = document.getElementById('project-clickable-two');
-	const btn3 = document.getElementById('project-clickable-three');
-	const btn4 = document.getElementById('project-clickable-four');
+	const btn1 = document.getElementById('project-image-one');
+	const btn2 = document.getElementById('project-image-two');
+	const btn3 = document.getElementById('project-image-three');
+	const btn4 = document.getElementById('project-image-four');
 
 	// Get the <span> element that closes the modal
 	const closeSpan = document.getElementsByClassName('close')[0];

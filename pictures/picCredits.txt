@@ -1,11 +1,8 @@
-'game_controller' by Luisho Martínez @ Iconscout.com
+'gamepad_icon' by Luisho Martínez @ Iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/gamepad-4128444-3430467.png
 
-'bike_icon' by Vector Stall @ Iconscout.com
+'bicycle_icon' by Vector Stall @ Iconscout.com
     https://cdn.iconscout.com/icon/free/png-256/bicycle-2598720-2224366.png
-
-'bike_icon_front' by Iconscout Store @ Iconscout.com
-    https://cdn.iconscout.com/icon/free/png-128/bicycle-1468834-1242928.png
 
 'book_icon' by Kiran Shastry @ Iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/book-1457023-1228941.png
@@ -35,3 +32,6 @@
 
 'Python Icon' by Icon Mafia @ iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/python-2-226051.png
+
+'Sass Icon' by Icon Mafia @ iconscout.com
+    https://iconscout.com/icons/sass

@@ -21,6 +21,23 @@ body {
   z-index: 0;
 }
 
+body h1 {
+  font-size: 6vw;
+}
+
+body h2 {
+  font-size: 5vw;
+  margin: 1vh 0vw 1vh 0vw;
+}
+
+body h3 {
+  font-size: 4vw;
+}
+
+body p {
+  font-size: 2vw;
+}
+
 @-webkit-keyframes backgroundColorPalette {
   0% {
     background: #444;
@@ -280,6 +297,7 @@ body {
 .project-image {
   border: 3px solid #353535;
   border-radius: 50px;
+  max-width: 100%;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
@@ -418,29 +436,17 @@ body {
 }
 
 footer {
-  font-size: 15px;
+  font-size: 1vw;
   position: relative;
   text-align: center;
+  z-index: 4;
+}
+
+footer p {
+  font-size: 1.5vw;
 }
 
 /*********** Implementing Responsiveness ************/
-h1 {
-  font-size: 6vw;
-}
-
-h2 {
-  font-size: 5vw;
-  margin: 1vh 0vw 1vh 0vw;
-}
-
-h3 {
-  font-size: 4vw;
-}
-
-p {
-  font-size: 2vw;
-}
-
 /********* Smaller Phones **********/
 @media only screen and (max-width: 320px) {
   body {

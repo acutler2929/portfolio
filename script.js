@@ -1,36 +1,34 @@
 'use strict';
 
 const htmlProjectZero = `
-	<div class="project-description">
-		<div class="project-left">
-			<img
-				src="./pictures/screenshots/nostalgia-beats-screen.png"
-				id="project-image-zero"
-				class="project-image"
-			/>
-		</div>
-		<div class="project-right">
-			<h3>Project Title</h3>
-			<ul class="tech-list">
-				<li class="tech-used">Html/Css</li>
-				<li class="tech-used">Sass</li>
-				<li class="tech-used">Javascript</li>
-			</ul>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing
-				elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis
-				nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in
-				reprehenderit in voluptate velit esse cillum dolore
-				eu fugiat nulla pariatur. Excepteur sint occaecat
-				cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum.
-			</p>
-			<div class="modal-links">
-				<a>Demo</a>
-				<a>Github</a>
-			</div>
+	<div class="project-left">
+		<img
+			src="./pictures/screenshots/nostalgia-beats-screen.png"
+			id="project-image-zero"
+			class="project-image-modal"
+		/>
+		<ul class="modal-tech-list">
+			<li class="tech-used">Html/Css</li>
+			<li class="tech-used">Sass</li>
+			<li class="tech-used">Javascript</li>
+		</ul>
+	</div>
+	<div class="project-right">
+		<h3 class="modal-title">Nostalgia Beats</h3>
+		<p class="modal-description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing
+			elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis
+			nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore
+			eu fugiat nulla pariatur. Excepteur sint occaecat
+			cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.
+		</p>
+		<div class="modal-links">
+			<a>Demo</a>
+			<a href="https://github.com/acutler1987/Nostalgia-Beats.git">Github</a>
 		</div>
 	</div>
 `;
@@ -39,7 +37,36 @@ const htmlProjectOne = `<h3>MovieFax Preview</h3>`;
 
 const htmlProjectTwo = `<h3>Simple Weather Preview</h3>`;
 
-const htmlProjectThree = `<h3>Giza Wellness Preview</h3>`;
+const htmlProjectThree = `
+	<div class="project-left">
+		<img
+			src="./pictures/screenshots/giza-wellness-screen.png"
+			id="project-image-three"
+			class="project-image-modal"
+		/>
+		<ul class="modal-tech-list">
+			<li class="tech-used">Html/Css</li>
+		</ul>
+	</div>
+	<div class="project-right">
+		<h3 class="modal-title">Giza Wellness</h3>
+		<p class="modal-description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing
+			elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis
+			nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore
+			eu fugiat nulla pariatur. Excepteur sint occaecat
+			cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.
+		</p>
+		<div class="modal-links">
+			<a href="https://gizawellness.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
+			<a href="https://github.com/acutler1987/CIS170.git" target="_blank" rel="noopener noreferrer">Github</a>
+		</div>
+	</div>
+`;
 
 const displayModal = function () {
 	// Get the modal and content
@@ -61,29 +88,25 @@ const displayModal = function () {
 	btn0.onclick = function () {
 		projectModal[0].style.display = 'block';
 		projectDescription[0].innerHTML = '';
-		// projectDescription[0].insertAdjacentHTML('afterbegin', htmlProjectZero);
 		projectDescription[0].innerHTML = htmlProjectZero;
 	};
 
 	btn1.onclick = function () {
 		projectModal[0].style.display = 'block';
 		projectDescription[0].innerHTML = '';
-		projectDescription[0].insertAdjacentHTML('afterbegin', htmlProjectOne);
+		projectDescription[0].innerHTML = htmlProjectOne;
 	};
 
 	btn2.onclick = function () {
 		projectModal[0].style.display = 'block';
 		projectDescription[0].innerHTML = '';
-		projectDescription[0].insertAdjacentHTML('afterbegin', htmlProjectTwo);
+		projectDescription[0].innerHTML = htmlProjectTwo;
 	};
 
 	btn3.onclick = function () {
 		projectModal[0].style.display = 'block';
 		projectDescription[0].innerHTML = '';
-		projectDescription[0].insertAdjacentHTML(
-			'afterbegin',
-			htmlProjectThree
-		);
+		projectDescription[0].innerHTML = htmlProjectThree;
 	};
 
 	// When the user clicks on <span> (x), close the modal

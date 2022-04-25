@@ -27,15 +27,78 @@ const htmlProjectZero = `
 			deserunt mollit anim id est laborum.
 		</p>
 		<div class="modal-links">
-			<a>Demo</a>
-			<a href="https://github.com/acutler1987/Nostalgia-Beats.git">Github</a>
+			<a href="https://nostalgiabeats.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
+			<a href="https://github.com/acutler1987/Nostalgia-Beats.git" target="_blank" rel="noopener noreferrer">Github</a>
 		</div>
 	</div>
 `;
 
-const htmlProjectOne = `<h3>MovieFax Preview</h3>`;
+const htmlProjectOne = `
+	<div class="project-left">
+		<img
+			src="./pictures/screenshots/moviefax-screen.png"
+			id="project-image-one"
+			class="project-image-modal"
+		/>
+		<ul class="modal-tech-list">
+			<li class="tech-used">Html/Css</li>
+			<li class="tech-used">Sass</li>
+			<li class="tech-used">Javascript</li>
+			<li class="tech-used">Node.JS</li>
+		</ul>
+	</div>
+	<div class="project-right">
+		<h3 class="modal-title">MovieFax</h3>
+		<p class="modal-description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing
+			elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis
+			nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore
+			eu fugiat nulla pariatur. Excepteur sint occaecat
+			cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.
+		</p>
+		<div class="modal-links">
+			<a href="https://moviefax.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
+			<a href="https://github.com/acutler1987/moviefax.git" target="_blank" rel="noopener noreferrer">Github</a>
+		</div>
+	</div>
+`;
 
-const htmlProjectTwo = `<h3>Simple Weather Preview</h3>`;
+const htmlProjectTwo = `
+	<div class="project-left">
+		<img
+			src="./pictures/screenshots/simple-weather-screen.png"
+			id="project-image-three"
+			class="project-image-modal"
+		/>
+		<ul class="modal-tech-list">
+			<li class="tech-used">Html/Css</li>
+			<li class="tech-used">Sass</li>
+			<li class="tech-used">Javascript</li>
+		</ul>
+	</div>
+	<div class="project-right">
+		<h3 class="modal-title">Simple Weather</h3>
+		<p class="modal-description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing
+			elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis
+			nostrud exercitation ullamco laboris nisi ut aliquip
+			ex ea commodo consequat. Duis aute irure dolor in
+			reprehenderit in voluptate velit esse cillum dolore
+			eu fugiat nulla pariatur. Excepteur sint occaecat
+			cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.
+		</p>
+		<div class="modal-links">
+			<a href="https://simpleweather.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
+			<a href="https://github.com/acutler1987/Simple-Weather.git" target="_blank" rel="noopener noreferrer">Github</a>
+		</div>
+	</div>
+`;
 
 const htmlProjectThree = `
 	<div class="project-left">

@@ -10,7 +10,7 @@
 'coffee_icon' by Vincent Le Moign @ Iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/coffee-842-448157.png
 
-'logo-github', 'facebook_icon', 'logo-linkedin' and 'mail-outline' by ionicons @ https://ionic.io/ionicons
+'logo-github', 'facebook_icon', 'logo-linkedin' and 'mail-outline' by ionicons @ https://ionic.io/ionicons *
 
 'Html Logo' by Jagathish Saravanan @ iconscout.com
     https://cdn.iconscout.com/icon/free/png-128/html-2752158-2284975.png
@@ -34,4 +34,4 @@
     https://cdn.iconscout.com/icon/free/png-128/python-2-226051.png
 
 'Sass Icon' by Icon Mafia @ iconscout.com
-    https://iconscout.com/icons/sass
+    https://iconscout.com/icons/sass *

@@ -2,6 +2,7 @@
 
 const htmlProjectZero = `
 	<div class="project-left">
+	<h3 class="modal-title">Nostalgia Beats</h3>
 		<img
 			src="./pictures/screenshots/nostalgia-beats-screen.png"
 			id="project-image-zero"
@@ -11,10 +12,13 @@ const htmlProjectZero = `
 			<li class="tech-used">Html/Css</li>
 			<li class="tech-used">Sass</li>
 			<li class="tech-used">Javascript</li>
+			<li class="tech-used">Html/Css</li>
+			<li class="tech-used">Sass</li>
+			<li class="tech-used">Javascript</li>
+			<li class="tech-used">Html/Css</li>
 		</ul>
 	</div>
 	<div class="project-right">
-		<h3 class="modal-title">Nostalgia Beats</h3>
 		<p class="modal-description">
 			Lorem ipsum dolor sit amet, consectetur adipiscing
 			elit, sed do eiusmod tempor incididunt ut labore et
@@ -35,6 +39,7 @@ const htmlProjectZero = `
 
 const htmlProjectOne = `
 	<div class="project-left">
+	<h3 class="modal-title">MovieFax</h3>
 		<img
 			src="./pictures/screenshots/moviefax-screen.png"
 			id="project-image-one"
@@ -43,12 +48,12 @@ const htmlProjectOne = `
 		<ul class="modal-tech-list">
 			<li class="tech-used">Html/Css</li>
 			<li class="tech-used">Sass</li>
+			<li class="tech-used">Bootstrap</li>
 			<li class="tech-used">Javascript</li>
 			<li class="tech-used">Node.JS</li>
 		</ul>
 	</div>
 	<div class="project-right">
-		<h3 class="modal-title">MovieFax</h3>
 		<p class="modal-description">
 			Lorem ipsum dolor sit amet, consectetur adipiscing
 			elit, sed do eiusmod tempor incididunt ut labore et
@@ -69,6 +74,7 @@ const htmlProjectOne = `
 
 const htmlProjectTwo = `
 	<div class="project-left">
+	<h3 class="modal-title">Simple Weather</h3>
 		<img
 			src="./pictures/screenshots/simple-weather-screen.png"
 			id="project-image-three"
@@ -78,10 +84,10 @@ const htmlProjectTwo = `
 			<li class="tech-used">Html/Css</li>
 			<li class="tech-used">Sass</li>
 			<li class="tech-used">Javascript</li>
+			<li class="tech-used">Node.js</li>
 		</ul>
 	</div>
 	<div class="project-right">
-		<h3 class="modal-title">Simple Weather</h3>
 		<p class="modal-description">
 			Lorem ipsum dolor sit amet, consectetur adipiscing
 			elit, sed do eiusmod tempor incididunt ut labore et
@@ -101,7 +107,8 @@ const htmlProjectTwo = `
 `;
 
 const htmlProjectThree = `
-	<div class="project-left">
+<div class="project-left">
+	<h3 class="modal-title">Giza Wellness</h3>
 		<img
 			src="./pictures/screenshots/giza-wellness-screen.png"
 			id="project-image-three"
@@ -112,7 +119,6 @@ const htmlProjectThree = `
 		</ul>
 	</div>
 	<div class="project-right">
-		<h3 class="modal-title">Giza Wellness</h3>
 		<p class="modal-description">
 			Lorem ipsum dolor sit amet, consectetur adipiscing
 			elit, sed do eiusmod tempor incididunt ut labore et
@@ -139,10 +145,10 @@ const displayModal = function () {
 	);
 
 	// Get the button that opens the modal
-	const btn0 = document.getElementById('project-image-zero');
-	const btn1 = document.getElementById('project-image-one');
-	const btn2 = document.getElementById('project-image-two');
-	const btn3 = document.getElementById('project-image-three');
+	const btn0 = document.getElementById('project-clickable-zero');
+	const btn1 = document.getElementById('project-clickable-one');
+	const btn2 = document.getElementById('project-clickable-two');
+	const btn3 = document.getElementById('project-clickable-three');
 
 	// Get the <span> element that closes the modal
 	const closeSpan = document.getElementsByClassName('close')[0];

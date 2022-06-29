@@ -79,53 +79,61 @@
 				</div>
 			</div>
 			<div id="projects">
-				<h2>Selected Projects</h2>
+				<h3>Selected Projects</h3>
 				<div id="projects-wrapper">
-					<div id="project-container-zero" class="project-container">
-						<h4>Nostalgia Beats</h4>
+					<div class="project-container">
+						<h4 class="project-title">Nostalgia Beats (WIP)</h4>
 						<img
 							src="./pictures/screenshots/nostalgia-beats-screen.png"
-							id="project-image-zero"
 							class="project-image"
+							id="project-clickable-zero"
 						/>
 					</div>
-					<div id="project-container-one" class="project-container">
-						<h4>MovieFax</h4>
+					<div class="project-container">
+						<h4 class="project-title">MovieFax (WIP)</h4>
 						<img
 							src="./pictures/screenshots/moviefax-screen.png"
-							id="project-image-one"
 							class="project-image"
+							id="project-clickable-one"
 						/>
 					</div>
-					<div id="project-container-two" class="project-container">
-						<h4>Simple Weather</h4>
+					<div class="project-container">
+						<h4 class="project-title">Simple Weather</h4>
 						<img
 							src="./pictures/screenshots/simple-weather-screen.png"
-							id="project-image-two"
 							class="project-image"
+							id="project-clickable-two"
 						/>
 					</div>
-					<div id="project-container-three" class="project-container">
-						<h4>Giza Wellness</h4>
+					<div class="project-container">
+						<h4 class="project-title">Giza Wellness</h4>
 						<img
 							src="./pictures/screenshots/giza-wellness-screen.png"
-							id="project-image-three"
 							class="project-image"
+							id="project-clickable-three"
 						/>
 					</div>
 				</div>
 			</div>
 			<div id="about">
 				<div id="description">
-					<h2>A little about me...</h2>
+					<h3>A little about me...</h3>
 					<p>
 						I love writing software- its the closest we will ever
 						come to wizardry!
 					</p>
-					<h3>My Toolbox</h3>
 				</div>
 				<div id="toolbox">
-					<img
+					<h4>My Toolbox</h4>
+					<div id="tech-icons-wrapper">
+						<ion-icon class="ionicons" name="logo-html5"></ion-icon>
+						<ion-icon class="ionicons" name="logo-css3"></ion-icon>
+						<ion-icon class="ionicons" name="logo-sass"></ion-icon>
+						<ion-icon class="ionicons" name="logo-javascript"></ion-icon>
+						<ion-icon class="ionicons" name="logo-nodejs"></ion-icon>
+						<ion-icon class="ionicons" name="logo-github"></ion-icon>
+					</div>
+					<!-- <img
 						src="pictures/Tech Icons/Html Icon.svg"
 						class="tech-icons"
 					/>
@@ -148,55 +156,71 @@
 					<img
 						src="pictures/Tech Icons/Git Icon.svg"
 						class="tech-icons"
-					/>
+					/> -->
 				</div>
 			</div>
 			<div id="contact">
 				<div id="contact-form">
-					<h2>Get In Touch</h2>
+					<h3>Get In Touch</h3>
 					<p>Here is where my contact form will go.</p>
 				</div>
 				<div id="socials-icons-wrapper">
 					<a href="mailto:acutler0451@gmail.com">
-						<ion-icon name="mail-outline">
-							<img
+						<ion-icon class="ionicons" name="mail-outline">
+							<!-- <img
 								src="pictures/mail-outline.svg"
 								id="socials-email"
 								class="social-icons"
-							/>
+							/> -->
 						</ion-icon>
 					</a>
 					<a href="https://github.com/acutler1987">
-						<ion-icon name="logo-github">
-							<img
+						<ion-icon class="ionicons" name="logo-github">
+							<!-- <img
 								src="pictures/Tech Icons/logo-github.svg"
 								id="socials-github"
 								class="social-icons"
-							/>
+							/> -->
 						</ion-icon>
 					</a>
 					<a href="https://www.facebook.com/alice.cutler.526">
-						<ion-icon name="logo-facebook">
-							<img
+						<ion-icon class="ionicons" name="logo-facebook">
+							<!-- <img
 								src="pictures/Tech Icons/facebook_icon.svg"
 								id="socials-facebook"
 								class="social-icons"
-							/>
+							/> -->
 						</ion-icon>
 					</a>
 					<a href="https://www.linkedin.com/">
-						<ion-icon name="logo-linkedin">
-							<img
+						<ion-icon class="ionicons" name="logo-linkedin">
+							<!-- <img
 								src="pictures/Tech Icons/logo-linkedin.svg"
 								id="socials-linkedin"
 								class="social-icons"
-							/>
+							/> -->
 						</ion-icon>
 					</a>
 				</div>
 			</div>
 			<footer>
+				<p>tech, media icons by <a href="https://ionic.io/ionicons" target="_blank"
+					>ionicons</a
+				></p>
 				<!--make more of these-->
+				<!-- <p>
+					<a>Mail Icon</a>, <a>Github Icon</a>, <a>Facebook Icon</a>,
+					and
+					<a
+						href="https://iconscout.com/icons/linkedin"
+						target="_blank"
+						>Linkedin Icon</a
+					>
+					by
+					<a href="https://ionic.io/ionicons" target="_blank"
+						>ionicons</a
+					>
+				</p>
 				<p>
 					<a href="https://iconscout.com/icons/sass" target="_blank"
 						>Sass Icon</a
@@ -205,22 +229,9 @@
 					<a href="https://iconscout.com/contributors/icon-mafia"
 						>Icon Mafia</a
 					>
-					on <a href="https://iconscout.com">Iconscout</a>
+					at <a href="https://iconscout.com">Iconscout</a>
 				</p>
-				<p>
-					<a
-						href="https://iconscout.com/icons/linkedin"
-						target="_blank"
-						>Linkedin Icon</a
-					>
-					by
-					<a
-						href="https://iconscout.com/contributors/unicons"
-						target="_blank"
-						>Unicons Font</a
-					>
-				</p>
-				<p>
+				<p> -->
 					Last updated
 					<script>
 						document.write(new Date().toLocaleDateString());
@@ -229,5 +240,7 @@
 			</footer>
 		</div>
 		<script src="script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>

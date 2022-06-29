@@ -6,14 +6,18 @@ $color-tertiary: #00f9f9;
 
 $color-accent: #00ff9f;
 
-$box-shadow: 0 0 0.625rem 0.625rem $color-tertiary;
+// $major-border: 1rem 1rem $color-tertiary, -0.25rem -0.25rem $color-tertiary;
+
+$major-border: 0 0 0.5rem 0.5rem $color-tertiary;
+
+$minor-border: $color-secondary 0px 1px 6px 0px;
 
 @mixin section-layout {
 	border-radius: 50px;
 	background-color: $color-primary;
-	box-shadow: $box-shadow;
+	box-shadow: $major-border;
 	height: 100%;
-	width: 75%;
+	width: 77.5%;
 	margin: 5% 0% 5% 0%;
 	scroll-margin-top: 100px;
 	z-index: 2;
@@ -67,6 +71,12 @@ body {
 		font-size: 4vw;
 	}
 
+	h4 {
+		height: 2vh;
+		margin: 2.5vh 0vw 2.5vh 0vw;
+		text-align: center;
+	}
+
 	p {
 		font-size: 2vw;
 	}
@@ -84,7 +94,7 @@ body {
 /***************** Navigation Bar ********************/
 
 #navbar {
-	box-shadow: $box-shadow;
+	box-shadow: $major-border;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -199,8 +209,8 @@ body {
 }
 
 #projects-wrapper {
-	border: 3px solid $color-secondary;
-	border-radius: 50px;
+	// border: 3px solid $color-secondary;
+	// border-radius: 50px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -208,16 +218,25 @@ body {
 }
 
 .project-container {
-	border: 3px solid $color-secondary;
-	border-radius: 50px;
-	background-color: gold;
-	height: 45%;
-	width: 45%;
+	// border: 3px solid $color-secondary;
+	// border-radius: 50px;
+	box-shadow: $minor-border;
+	// background-color: red;
+	height: 42.5%;
+	width: 42.5%;
+	margin: 2.5vh 0vw 2.5vh 0vw;
 }
 
+// .project-title {
+// 	height: 2vh;
+// 	margin: 2.5vh 0vw 2.5vh 0vw;
+// 	text-align: center;
+// }
+
 .project-image {
-	border: 3px solid $color-secondary;
-	border-radius: 50px;
+	// border: 3px solid $color-secondary;
+	// border-radius: 50px;
+	vertical-align: bottom;
 	cursor: pointer;
 	max-width: 100%;
 	transition: transform 0.2s;
@@ -243,63 +262,83 @@ body {
 
 .project-modal-content {
 	background-color: #fefefe;
-	// position: fixed;
+	display: flex;
+	flex-direction: column;
 	margin: 5vh auto; /* 5% from the top and centered */
 	padding: 20px;
 	border: 1px solid $color-primary;
 	height: 75vh;
 	width: 75vw; /* Could be more or less, depending on screen size */
-}
 
-.close:hover,
-.close:focus {
-	color: $color-secondary;
-	text-decoration: none;
-	cursor: pointer;
-}
+	.close {
+		font-size: 2.5rem;
+	}
 
-.project-description {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-	width: 100%;
-}
+	.close:hover,
+	.close:focus {
+		box-shadow: $minor-border;
+		color: $color-secondary;
+		text-decoration: none;
+		cursor: pointer;
+	}
 
-.project-left {
-	display: flex;
-	flex-direction: column;
-	height: 80%;
-	width: 50%;
-}
+	.project-description {
+		display: flex;
+		flex-direction: row;
+		height: 100%;
+		width: 100%;
 
-.project-right {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-}
+		.project-left {
+			display: flex;
+			flex-direction: column;
+			padding-right: 1rem;
+			width: 50%;
 
-.modal-project-image {
-	// height: 80%;
-	max-width: 100%;
-}
+			.modal-title {
+				// font-size: 4vw;
+			}
 
-.modal-tech-list {
-	display: flex;
-	flex-direction: row;
-}
+			.modal-project-image {
+				// height: 80%;
+				max-width: 100%;
+			}
 
-.modal-title {
-	font-size: 4vw;
-}
+			.modal-tech-list {
+				list-style: none;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-around;
 
-.modal-description {
-	font-size: 2vw;
-	overflow-y: scroll;
-}
+				.tech-used {
+					box-shadow: $minor-border;
+					margin: 0.25rem;
+					padding: 0.25rem;
+				}
+			}
+		}
 
-.modal-links {
-	display: flex;
-	flex-direction: row;
+		.project-right {
+			display: flex;
+			flex-direction: column;
+			align-content: space-between;
+			padding-left: 1rem;
+			width: 50%;
+
+			.modal-description {
+				font-size: 1rem;
+				overflow-y: scroll;
+			}
+
+			.modal-links {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-evenly;
+				margin-top: auto;
+				padding: 1rem;
+			}
+		}
+	}
 }
 
 /********** About Section **************/
@@ -309,18 +348,22 @@ body {
 }
 
 #toolbox {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap;
 }
 
-.tech-icons {
-	height: 10%;
-	width: 10%;
-	padding: 15px;
-	object-fit: cover;
+#tech-icons-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 1rem;
 }
+
+// .tech-icons {
+// 	height: 10%;
+// 	width: 10%;
+// 	padding: 15px;
+// 	object-fit: cover;
+// }
 
 /********** Contact Section **********/
 
@@ -343,20 +386,31 @@ body {
 	width: 80%;
 }
 
-.social-icons {
-	height: 60%;
-	width: 60%;
+.ionicons {
+	// color: $color-secondary;
+	height: 5rem;
+	width: 5rem;
 }
 
+// .social-icons {
+// 	height: 60%;
+// 	width: 60%;
+// }
+
 footer {
-	font-size: 1vw;
 	position: relative;
 	text-align: center;
 	z-index: 4;
 
 	p {
-		font-size: 1.5vw;
+		font-size: 0.8rem;
 	}
 }
 
 @import './responsive';
+
+/**************** Footer *********************/
+
+// .footer-font{
+// 	font-size
+// }

@@ -15,6 +15,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-family: sans-serif;
   margin: 0;
   height: 100%;
   text-align: center;
@@ -42,6 +43,7 @@ body h4 {
 
 body p {
   font-size: 2vw;
+  padding: 2rem;
 }
 
 @-webkit-keyframes backgroundColorPalette {
@@ -118,6 +120,7 @@ body p {
   position: absolute;
 }
 
+/******************** wavy line background effect **********************/
 #wavy-line-wrapper {
   -webkit-animation-name: waveSlide;
           animation-name: waveSlide;
@@ -347,7 +350,7 @@ body p {
   /* 5% from the top and centered */
   padding: 20px;
   border: 1px solid #c9c9c9;
-  height: 75vh;
+  height: 80vh;
   width: 75vw;
   /* Could be more or less, depending on screen size */
 }
@@ -389,6 +392,10 @@ body p {
   width: 50%;
 }
 
+.project-modal-content .project-description .project-left .modal-title {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
 .project-modal-content .project-description .project-left .modal-project-image {
   max-width: 100%;
 }
@@ -413,6 +420,8 @@ body p {
           box-shadow: #353535 0px 1px 6px 0px;
   margin: 0.25rem;
   padding: 0.25rem;
+  height: auto;
+  width: auto;
 }
 
 .project-modal-content .project-description .project-right {
@@ -431,7 +440,9 @@ body p {
 
 .project-modal-content .project-description .project-right .modal-description {
   font-size: 1rem;
+  max-height: 50vh;
   overflow-y: scroll;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .project-modal-content .project-description .project-right .modal-links {
@@ -523,8 +534,8 @@ body p {
 }
 
 .ionicons {
-  height: 5rem;
-  width: 5rem;
+  height: 15vh;
+  width: 15vw;
 }
 
 footer {

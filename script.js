@@ -12,23 +12,11 @@ const htmlProjectZero = `
 			<li class="tech-used">Html/Css</li>
 			<li class="tech-used">Sass</li>
 			<li class="tech-used">Javascript</li>
-			<li class="tech-used">Html/Css</li>
-			<li class="tech-used">Sass</li>
-			<li class="tech-used">Javascript</li>
-			<li class="tech-used">Html/Css</li>
 		</ul>
 	</div>
 	<div class="project-right">
 		<p class="modal-description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing
-			elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Ut enim ad minim veniam, quis
-			nostrud exercitation ullamco laboris nisi ut aliquip
-			ex ea commodo consequat. Duis aute irure dolor in
-			reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat
-			cupidatat non proident, sunt in culpa qui officia
-			deserunt mollit anim id est laborum.
+		Uses Spotify api. When finished, Nostalgia Beats will be a full stack playlist maker that focuses on music that was popular when you were young. You could then save these playlists in an account. In addition to Bootstrap and Node.js, I also plan to use React and MongoDB.
 		</p>
 		<div class="modal-links">
 			<a href="https://nostalgiabeats.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
@@ -55,15 +43,7 @@ const htmlProjectOne = `
 	</div>
 	<div class="project-right">
 		<p class="modal-description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing
-			elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Ut enim ad minim veniam, quis
-			nostrud exercitation ullamco laboris nisi ut aliquip
-			ex ea commodo consequat. Duis aute irure dolor in
-			reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat
-			cupidatat non proident, sunt in culpa qui officia
-			deserunt mollit anim id est laborum.
+		This was my first project that was entirely server-side rendered. Handling multiple api calls between IMDB.com and Watchmode.com, this app currently allows you to search for a movie and view purchase, streaming and rental options. (WIP) => I am currently learning MongoDB and in future updates,  will allow you to build a list of movies you like, and from that list the app will give you suggestions of other movies you might like. Stay tuned!
 		</p>
 		<div class="modal-links">
 			<a href="https://moviefax.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
@@ -89,15 +69,7 @@ const htmlProjectTwo = `
 	</div>
 	<div class="project-right">
 		<p class="modal-description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing
-			elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Ut enim ad minim veniam, quis
-			nostrud exercitation ullamco laboris nisi ut aliquip
-			ex ea commodo consequat. Duis aute irure dolor in
-			reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat
-			cupidatat non proident, sunt in culpa qui officia
-			deserunt mollit anim id est laborum.
+		Using Open Weather Map api, this was my first independant project where I began to use api calls. With Simple Weather, you enter your city and state and get back a forecast of weather by the day or hour. Starting with this project, I began to experiment with backend technologies such as Node.js and express. This was also my first project that starts a server, handles routing through an app.js file, and handles api calls and data processing through seperate modules- before passing the resulting data on to the client. Probably my biggest challenge with this project was learning to handle async/await declarations while using two different api endpoints, a reverse geocoding endpoint and a weather data endpoint.
 		</p>
 		<div class="modal-links">
 			<a href="https://simpleweather.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
@@ -120,15 +92,7 @@ const htmlProjectThree = `
 	</div>
 	<div class="project-right">
 		<p class="modal-description">
-			Lorem ipsum dolor sit amet, consectetur adipiscing
-			elit, sed do eiusmod tempor incididunt ut labore et
-			dolore magna aliqua. Ut enim ad minim veniam, quis
-			nostrud exercitation ullamco laboris nisi ut aliquip
-			ex ea commodo consequat. Duis aute irure dolor in
-			reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat
-			cupidatat non proident, sunt in culpa qui officia
-			deserunt mollit anim id est laborum.
+		The first big project I finished! This is a simple web site made with just html and css, no libraries. I decided to make a satire site making fun of alternative health pyramid schemes. With this project, I learned the basics of website design and layout.
 		</p>
 		<div class="modal-links">
 			<a href="https://gizawellness.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>

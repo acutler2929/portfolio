@@ -53,6 +53,7 @@ body {
 	animation-direction: alternate;
 	display: flex;
 	flex-direction: row;
+	font-family: sans-serif;
 	margin: 0;
 	height: 100%;
 	text-align: center;
@@ -79,6 +80,7 @@ body {
 
 	p {
 		font-size: 2vw;
+		padding: 2rem;
 	}
 }
 
@@ -130,6 +132,8 @@ body {
 	position: absolute;
 }
 
+/******************** wavy line background effect **********************/
+
 #wavy-line-wrapper {
 	animation-name: waveSlide;
 	animation-duration: 5s;
@@ -138,7 +142,7 @@ body {
 	animation-timing-function: linear;
 	display: flex;
 	flex-direction: row;
-	// justify-content: center;
+	// align-items: center;
 	position: fixed;
 	height: 100vh;
 	width: 300vw;
@@ -267,7 +271,7 @@ body {
 	margin: 5vh auto; /* 5% from the top and centered */
 	padding: 20px;
 	border: 1px solid $color-primary;
-	height: 75vh;
+	height: 80vh;
 	width: 75vw; /* Could be more or less, depending on screen size */
 
 	.close {
@@ -295,7 +299,7 @@ body {
 			width: 50%;
 
 			.modal-title {
-				// font-size: 4vw;
+				margin: 1rem 0rem 1rem 0rem;
 			}
 
 			.modal-project-image {
@@ -314,6 +318,8 @@ body {
 					box-shadow: $minor-border;
 					margin: 0.25rem;
 					padding: 0.25rem;
+					height: auto;
+					width: auto;
 				}
 			}
 		}
@@ -327,7 +333,9 @@ body {
 
 			.modal-description {
 				font-size: 1rem;
+				max-height: 50vh;
 				overflow-y: scroll;
+				padding: 1rem 0rem 1rem 0rem;
 			}
 
 			.modal-links {
@@ -388,13 +396,12 @@ body {
 
 .ionicons {
 	// color: $color-secondary;
-	height: 5rem;
-	width: 5rem;
+	height: 15vh;
+	width: 15vw;
 }
 
 // .social-icons {
-// 	height: 60%;
-// 	width: 60%;
+// 	color: $color-accent;
 // }
 
 footer {

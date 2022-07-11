@@ -2,7 +2,9 @@
 deployment:
     tasks:
         - export DEPLOYPATH=/home/alicqplp/public_html/
-        - /bin/cp index.html $DEPLOYPATH
-        - /bin/cp styles.css $DEPLOYPATH
-        - /bin/cp script.js $DEPLOYPATH
+        - /bin/cp -R node_modules $DEPLOYPATH
         - /bin/cp -R pictures $DEPLOYPATH
+        - /bin/cp -R style $DEPLOYPATH
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp package.json $DEPLOYPATH
+        - /bin/cp script.js $DEPLOYPATH

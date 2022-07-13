@@ -19,7 +19,6 @@ const htmlProjectZero = `
 		Uses Spotify api. When finished, Nostalgia Beats will be a full stack playlist maker that focuses on music that was popular when you were young. You could then save these playlists in an account. In addition to Bootstrap and Node.js, I also plan to use React and MongoDB.
 		</p>
 		<div class="modal-links">
-			<a href="https://nostalgiabeats.alicecutler.dev" target="_blank" rel="noopener noreferrer">Demo</a>
 			<a href="https://github.com/acutler1987/Nostalgia-Beats.git" target="_blank" rel="noopener noreferrer">Github</a>
 		</div>
 	</div>

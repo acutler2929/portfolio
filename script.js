@@ -154,3 +154,48 @@ const displayModal = function () {
 	};
 };
 displayModal();
+
+/////////////////// Switch landing images when screen size shrinks
+
+function checkScreen() {
+	const landingRowTop = document.getElementById('landing-row-top');
+	const landingColumnLeft = document.getElementById('landing-column-left');
+	const landingColumnRight = document.getElementById('landing-column-right');
+
+	const checkMobile = window.matchMedia('screen and (max-width: 575px)');
+	const checkTablet = window.matchMedia(
+		'screen and (min-width: 576px) and (max-width: 991px)'
+	);
+	const checkDesktop = window.matchMedia('screen and (min-width: 992px)');
+
+	checkMobile.addListener(function (e) {
+		if (e.matches) {
+			console.log('MOBILE');
+
+			landingRowTop.style.display = 'none';
+			landingColumnLeft.style.display = 'none';
+			landingColumnRight.style.display = 'none';
+		}
+	});
+
+	checkTablet.addListener(function (e) {
+		if (e.matches) {
+			console.log('TABLET');
+
+			landingRowTop.style.display = 'flex';
+			landingColumnLeft.style.display = 'none';
+			landingColumnRight.style.display = 'none';
+		}
+	});
+
+	checkDesktop.addListener(function (e) {
+		if (e.matches) {
+			console.log('DESKTOP');
+
+			landingRowTop.style.display = 'none';
+			landingColumnLeft.style.display = 'flex';
+			landingColumnRight.style.display = 'flex';
+		}
+	});
+}
+checkScreen();

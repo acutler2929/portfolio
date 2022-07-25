@@ -4,8 +4,8 @@
 		<meta charset="UTF-8" />
 		<title>Alice Cutler Portfolio</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-		<script src="https://kit.fontawesome.com/a684cfb3a0.js" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
 		<link rel="stylesheet" href="style/style.css" />
 	</head>
 	<body>
@@ -60,24 +60,38 @@
 				<div id="wavy-line-four"></div>
 			</div>
 			<div id="landing">
-				<div class="landing-row">
+				<div id="landing-row-top" >
 					<img
 						src="pictures/bicycle_icon.svg"
-						class="landingImages"
+						class="img-fluid landing-images"
 					/>
-					<img src="pictures/book_icon.svg" class="landingImages" />
-				</div>
-				<div class="landing-row" id="landingText">
-					<h1>Hello!</h1>
-					<p>I'm Alice Cutler, a web developer based in Kalamazoo, Michigan.</p>
-					<p>Welcome to my cozy corner of the internet!</p>
-				</div>
-				<div class="landing-row">
-					<img src="pictures/coffee_icon.svg" class="landingImages" />
+					<img src="pictures/book_icon.svg" class="img-fluid landing-images" />
+					<img src="pictures/coffee_icon.svg" class="img-fluid landing-images" />
 					<img
 						src="pictures/gamepad_icon.svg"
-						class="landingImages"
+						class="img-fluid landing-images"
 					/>
+				</div>
+				<div id="landing-row-bottom">
+					<div id="landing-column-left" class="landing-column">
+						<img
+							src="pictures/bicycle_icon.svg"
+							class="img-fluid landing-images"
+						/>
+						<img src="pictures/book_icon.svg" class="img-fluid landing-images" />
+					</div>
+					<div id="landing-column-center">
+						<h1 class="landing-text">Hello!</h1>
+						<p class="landing-text">I'm Alice Cutler, a web developer based in Kalamazoo, Michigan.</p>
+						<p class="landing-text">Welcome to my cozy corner of the internet!</p>
+					</div>
+					<div id="landing-column-right" class="landing-column">
+						<img src="pictures/coffee_icon.svg" class="img-fluid landing-images" />
+						<img
+							src="pictures/gamepad_icon.svg"
+							class="img-fluid landing-images"
+						/>
+					</div>
 				</div>
 			</div>
 			<div id="projects">
@@ -87,7 +101,7 @@
 						<h4 class="project-title">Nostalgia Beats (WIP)</h4>
 						<img
 							src="./pictures/screenshots/nostalgia-beats-screen.png"
-							class="project-image"
+							class="project-image img-fluid"
 							id="project-clickable-zero"
 						/>
 					</div>
@@ -95,7 +109,7 @@
 						<h4 class="project-title">MovieFax (WIP)</h4>
 						<img
 							src="./pictures/screenshots/moviefax-screen.png"
-							class="project-image"
+							class="project-image img-fluid"
 							id="project-clickable-one"
 						/>
 					</div>
@@ -103,7 +117,7 @@
 						<h4 class="project-title">Simple Weather</h4>
 						<img
 							src="./pictures/screenshots/simple-weather-screen.png"
-							class="project-image"
+							class="project-image img-fluid"
 							id="project-clickable-two"
 						/>
 					</div>
@@ -111,7 +125,7 @@
 						<h4 class="project-title">Giza Wellness</h4>
 						<img
 							src="./pictures/screenshots/giza-wellness-screen.png"
-							class="project-image"
+							class="project-image img-fluid"
 							id="project-clickable-three"
 						/>
 					</div>
@@ -243,7 +257,9 @@
 			</footer>
 		</div>
 		<script src="script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/a684cfb3a0.js" crossorigin="anonymous"></script>
 	</body>
 </html>

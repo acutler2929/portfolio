@@ -291,7 +291,7 @@ body {
 	margin: 5vh auto; /* 5% from the top and centered */
 	padding: 20px;
 	border: 1px solid $color-primary;
-	height: 80vh;
+	height: auto;
 	width: 75vw; /* Could be more or less, depending on screen size */
 
 	.close {
@@ -352,7 +352,7 @@ body {
 			width: 50%;
 
 			.modal-description {
-				font-size: 1rem;
+				// font-size: 1rem;
 				max-height: 50vh;
 				overflow-y: scroll;
 				padding: 1rem 0rem 1rem 0rem;
@@ -376,7 +376,7 @@ body {
 }
 
 #description {
-	// overflow-y: hidden;
+	margin: 0 auto;
 }
 
 #toolbox {

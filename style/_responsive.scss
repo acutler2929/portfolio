@@ -15,6 +15,11 @@
 	body {
 		display: flex;
 		flex-direction: column;
+
+		p {
+			font-size: 1rem;
+			padding: 1rem;
+		}
 	}
 
 	#navbar {
@@ -41,59 +46,98 @@
 	#landing {
 		@include section-layout();
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 
-		// #landing-row-top {
-		// 	display: flex;
-		// 	flex-direction: row;
-		// 	align-items: center;
-		// 	justify-content: space-around;
-		// 	height: 25vh;
-		// 	width: 50vw;
-		// }
-
-		#landing-column-left {
+		#landing-row-top {
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
 			align-items: center;
-			height: 100%;
-			width: 33%;
+			justify-content: space-around;
+			height: auto;
+			width: 90%;
 		}
 
-		#landing-column-center {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			height: 100%;
-			width: 33%;
-		}
+		#landing-row-bottom {
+			height: 80%;
 
-		#landing-column-right {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			height: 100%;
-			width: 33%;
+			#landing-column-left {
+				display: none;
+				// flex-direction: column;
+				// align-items: center;
+				// height: 100%;
+				// width: 33%;
+			}
+
+			#landing-column-center {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 100%;
+				width: auto;
+
+				// .landing-text {
+				// 	// font-size: 1rem;
+				// 	margin: 0;
+				// 	padding: 1rem;
+				// }
+			}
+
+			#landing-column-right {
+				display: none;
+				// flex-direction: column;
+				// align-items: center;
+				// height: 100%;
+				// width: 33%;
+			}
 		}
 
 		.landing-images {
-			height: 40%;
-			width: 50%;
-			object-fit: cover;
-			padding: 15px;
+			// display: none;
+			height: auto;
+			width: 25%;
+			// object-fit: cover;
+			padding: 1vw;
 		}
 	}
 
-	// #techIcons {
-	// 	padding: 2px;
-	// }
+	/*************** Project Modals ****************/
 
-	// #socials-wrapper {
-	// 	justify-content: center;
-	// 	height: 10px;
-	// 	width: 10px;
-	// }
+	.project-description {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: auto;
+		width: 100%;
+		justify-content: center;
+
+		.project-left {
+			display: flex;
+			flex-direction: column;
+			padding: 0.25rem;
+			max-width: 100%;
+			min-width: 100%;
+
+			.tech-used {
+				margin: 0.25rem;
+				padding: 0rem;
+			}
+		}
+
+		.project-right {
+			display: flex;
+			flex-direction: column;
+			align-content: space-between;
+			padding: 0.25rem;
+			max-width: 100%;
+			min-width: 100%;
+
+			.modal-description {
+				padding: 0.25rem 0rem 0.25rem 0rem;
+			}
+		}
+	}
 }
 
 /*************************************************** Tablet **********************************************************/
@@ -110,6 +154,11 @@
 
 	body {
 		position: relative;
+
+		p {
+			font-size: 1rem;
+			padding: 1rem;
+		}
 	}
 
 	#navbar {
@@ -145,12 +194,13 @@
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-around;
-			height: 25vh;
-			width: 50vw;
+			height: auto;
+			width: 90%;
 		}
 
 		#landing-row-bottom {
 			height: 80%;
+			margin: 0 auto;
 
 			#landing-column-left {
 				display: none;
@@ -165,13 +215,13 @@
 				flex-direction: column;
 				align-items: center;
 				height: 100%;
-				width: 33%;
+				width: auto;
 
-				.landing-text {
-					// font-size: 1rem;
-					margin: 0;
-					padding: 1rem;
-				}
+				// .landing-text {
+				// 	// font-size: 1rem;
+				// 	margin: 0;
+				// 	padding: 1rem;
+				// }
 			}
 
 			#landing-column-right {
@@ -182,71 +232,13 @@
 				// width: 33%;
 			}
 		}
-	}
 
-	.landing-images {
-		// display: none;
-		height: auto;
-		width: 50%;
-		object-fit: cover;
-		padding: 15px;
+		.landing-images {
+			// display: none;
+			height: auto;
+			width: 25%;
+			// object-fit: cover;
+			padding: 15px;
+		}
 	}
 }
-
-/******** Tablets *******/
-
-// @media only screen and (min-width: 640px) and (max-width: 900px) {
-// 	// @keyframes backgroundColorPalette {
-// 	// 	0% {
-// 	// 		background: blue;
-// 	// 	}
-// 	// 	100% {
-// 	// 		background: purple;
-// 	// 	}
-// 	// }
-
-// 	#landing {
-// 		@include section-layout();
-// 		display: flex;
-// 		flex-direction: column;
-// 		align-items: center;
-// 		justify-content: center;
-
-// 		#landing-column-left {
-// 			display: flex;
-// 			flex-direction: row;
-// 			justify-content: space-around;
-// 		}
-
-// 		#landing-column-right {
-// 			display: flex;
-// 			flex-direction: row;
-// 			justify-content: space-around;
-// 		}
-
-// 		.landing-column {
-// 			display: flex;
-// 			flex-direction: column;
-// 			align-items: center;
-// 			height: 100%;
-// 			width: 33%;
-
-// 			.landing-images {
-// 				height: 40%;
-// 				width: 50%;
-// 				object-fit: cover;
-// 				padding: 15px;
-// 			}
-
-// 			#landingText {
-// 				align-self: center;
-// 			}
-// 		}
-// 	}
-
-// 	#socials-wrapper {
-// 		justify-content: center;
-// 		height: 40px;
-// 		width: 40px;
-// 	}
-// }

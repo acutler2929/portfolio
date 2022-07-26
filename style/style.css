@@ -397,7 +397,7 @@ body p {
   /* 5% from the top and centered */
   padding: 20px;
   border: 1px solid #c9c9c9;
-  height: 80vh;
+  height: auto;
   width: 75vw;
   /* Could be more or less, depending on screen size */
 }
@@ -486,7 +486,6 @@ body p {
 }
 
 .project-modal-content .project-description .project-right .modal-description {
-  font-size: 1rem;
   max-height: 50vh;
   overflow-y: scroll;
   padding: 1rem 0rem 1rem 0rem;
@@ -520,6 +519,10 @@ body p {
   margin: 5% 0% 5% 0%;
   scroll-margin-top: 100px;
   z-index: 2;
+}
+
+#description {
+  margin: 0 auto;
 }
 
 #tech-icons-wrapper {
@@ -612,6 +615,10 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  body p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
   #navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -651,6 +658,10 @@ footer p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -658,35 +669,29 @@ footer p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #landing #landing-column-left {
+  #landing #landing-row-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100%;
-    width: 33%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: auto;
+    width: 90%;
   }
-  #landing #landing-column-center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100%;
-    width: 33%;
+  #landing #landing-row-bottom {
+    height: 80%;
   }
-  #landing #landing-column-right {
+  #landing #landing-row-bottom #landing-column-left {
+    display: none;
+  }
+  #landing #landing-row-bottom #landing-column-center {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -698,14 +703,65 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
     height: 100%;
-    width: 33%;
+    width: auto;
+  }
+  #landing #landing-row-bottom #landing-column-right {
+    display: none;
   }
   #landing .landing-images {
-    height: 40%;
-    width: 50%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    padding: 15px;
+    height: auto;
+    width: 25%;
+    padding: 1vw;
+  }
+  /*************** Project Modals ****************/
+  .project-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project-description .project-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0.25rem;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .project-description .project-left .tech-used {
+    margin: 0.25rem;
+    padding: 0rem;
+  }
+  .project-description .project-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    padding: 0.25rem;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .project-description .project-right .modal-description {
+    padding: 0.25rem 0rem 0.25rem 0rem;
   }
 }
 
@@ -713,6 +769,10 @@ footer p {
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   body {
     position: relative;
+  }
+  body p {
+    font-size: 1rem;
+    padding: 1rem;
   }
   #navbar {
     display: -webkit-box;
@@ -777,11 +837,12 @@ footer p {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    height: 25vh;
-    width: 50vw;
+    height: auto;
+    width: 90%;
   }
   #landing #landing-row-bottom {
     height: 80%;
+    margin: 0 auto;
   }
   #landing #landing-row-bottom #landing-column-left {
     display: none;
@@ -798,23 +859,15 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
     height: 100%;
-    width: 33%;
-  }
-  #landing #landing-row-bottom #landing-column-center .landing-text {
-    margin: 0;
-    padding: 1rem;
+    width: auto;
   }
   #landing #landing-row-bottom #landing-column-right {
     display: none;
   }
-  .landing-images {
+  #landing .landing-images {
     height: auto;
-    width: 50%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    width: 25%;
     padding: 15px;
   }
 }
-
-/******** Tablets *******/
 /*# sourceMappingURL=style.css.map */

@@ -444,6 +444,7 @@ body p {
 }
 
 .project-modal-content .project-description .project-left .modal-project-image {
+  height: auto;
   max-width: 100%;
 }
 
